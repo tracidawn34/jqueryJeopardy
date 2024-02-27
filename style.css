@@ -1,18 +1,48 @@
 h1{
     text-align: center;
+    font-size: 60px;
 }
 
 .score{
     text-align: center;
+    font-size: 40px;
 }
 
 .grid-container{
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 750px;
+    text-align: center;
+    margin-left: 25%;
 }
 
-.grid-item{
-    grid-column-start: 1;
-    grid-column-end: 5;
+.grid-item, .category{
+    font-size: 30px;
+    color: gold;
+    background-color: blue;
+    border: solid black 3px;
+    padding: 10px;
+}
+
+#answer{
+    width: 200px;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 40%;
+}
+
+#submit-answer {
+    color: #071115;
+    padding: 10px 15px;
+    font-size: 1em;
+    border: black;
+    border-radius: 5px;
+    
+}
+
+.grid-item:hover{
+    color: antiquewhite;
+    
 }

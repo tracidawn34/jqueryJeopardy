@@ -11,35 +11,54 @@
 </head>
 <body>
     <h1>Jeopardy</h1>
-    <h2 class="score">Your Score:</h2>
+    <h2 class="score">Your Score: <span id="score-display"></span></h2>
     <div class="grid-container">
+
+       <!--- <div class="category">Category 1</div>
+        <div class="category">Category 2</div>
+        <div class="category">Category 3</div>
+        <div class="category">Category 4</div>
+        <div class="category">Category 5</div>--->
+
         <div class="grid-item">$100</div>
         <div class="grid-item">$100</div>
         <div class="grid-item">$100</div>
         <div class="grid-item">$100</div>
         <div class="grid-item">$100</div>
+        
         <div class="grid-item">$200</div>
         <div class="grid-item">$200</div>
         <div class="grid-item">$200</div>
         <div class="grid-item">$200</div>
         <div class="grid-item">$200</div>
+        
         <div class="grid-item">$300</div>
         <div class="grid-item">$300</div>
         <div class="grid-item">$300</div>
         <div class="grid-item">$300</div>
         <div class="grid-item">$300</div>
+        
         <div class="grid-item">$400</div>
         <div class="grid-item">$400</div>
         <div class="grid-item">$400</div>
         <div class="grid-item">$400</div>
         <div class="grid-item">$400</div>
+        
         <div class="grid-item">$500</div>
         <div class="grid-item">$500</div>
         <div class="grid-item">$500</div>
         <div class="grid-item">$500</div>
         <div class="grid-item">$500</div>
     </div>
+    <br>
+    <div id="question">
 
-    
+    </div>
+       
+<input type="text" id="answer" placeholder="Your answer here">
+<button id="submit-answer"> Submit Answer</button>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </body>
 </html>

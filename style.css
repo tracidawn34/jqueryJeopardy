@@ -8,7 +8,7 @@ body{
 
 h1{
     text-align: center;
-    font-size: 70px;
+    font-size: 75px;
     font-family: 'barriecito', sans-serif;
 }
 
@@ -54,4 +54,10 @@ h1{
 .grid-item:hover{
     color: antiquewhite;
     cursor: pointer;
+}
+
+.question{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
 }

@@ -1,9 +1,9 @@
 
 
 const scoreAmount = $('.grid-item')
-console.log('scoreAmount')
+//console.log('scoreAmount')
 
-const scoreDisplay = $('#score-display')
+const scoreDisplay = $('.score-display')
 const questionDisplay = $('.question')
 const input = $('#answer')
 
